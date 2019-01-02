@@ -1,0 +1,372 @@
+h1,h2{
+	margin: 0;
+	padding: 0;
+}
+/*第一屏*/
+.section{ 
+	text-align: center;
+	font: 50px "Microsoft Yahei";
+	color: #fff;
+	}
+.section1{
+	background:url(img/section1.jpg);
+	background-size: 100%;
+}
+/*163126yah邮箱*/
+.mail{
+	width: 100%;
+	height: 26px;
+	background:url(img/logo.png) no-repeat 50%;
+	position: absolute;
+	top: 20px;
+}
+.mail>a{
+	font-size: 5px;
+}
+/*文字*/
+.wow h1{
+	display: block;
+    font-size: 2em;
+    -webkit-margin-before: -3.3em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: 100;
+}
+.wow h2{
+	display: block;
+    font-size: 52px;
+    -webkit-margin-before:-0.33em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: -43px;
+    font-weight: 100;
+}
+.p1{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    margin: 0 0 0 -280px;
+    font-size: 14px;
+    color: #94a7c6;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.section1 .p1{
+	opacity: 1;
+    transition-duration: 1s;
+    transition-delay: 2s;
+}
+/*第二张背景图*/
+.bg2{
+	width: 100%;
+	height: 392px;
+	position: absolute;
+	background:url(img/bg12.png) 50% 0 no-repeat;
+	bottom: 110px;
+	transition: all 1.7s;
+}
+/*第3张背景图*/
+.bg3{
+	width: 100%;
+	height: 392px;
+	position: absolute;
+	background:url(img/bg13.png) 50% 0 no-repeat;
+	bottom: 0;
+}
+
+/*第二屏*/
+.section2{
+	background:url(img/section2.jpg);
+	background-size: 100%;
+}
+/*文字*/
+.section2 strong{
+    position: absolute;
+    left: 39%;
+    top: 15%;
+    z-index: 10;
+    width: 512px;
+    height: 45px;
+    margin-left: -256px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #748A9E;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    transition: all 1s;
+}
+.section2 h3{
+	color: #6D7E8B;
+    position: absolute;
+    left: 49%;
+    top: 15%;
+    z-index: 10;
+    height: 45px;
+    margin-left: -256px;
+    margin-top: 60px;
+    transform: scale(0.5, 0.5);
+    transition: all 1s;
+    font-size: 60px;
+    font-weight: 100
+}
+.p2{
+	position: absolute;
+    left: 50%;
+    top: 32%;
+    width: 600px;
+    margin: 0 0 0 -280px;
+    font-size: 16px;
+    color: #94a7c6;
+    transition: all 0.5s;
+}
+.bg4{
+	width: 100%;
+    height: 392px;
+    position: absolute;
+    left: -27%;
+    background: url(img/bg21.png) 50% 0 no-repeat;
+    bottom: 110px;
+    transition: all 1.7s;
+}
+.bg5{
+    width: 100%;
+    height: 392px;
+    position: absolute;
+    left: 24%;
+    top: 39%;
+    background: url(img/bg22.png) 50% 0 no-repeat;
+    bottom: 110px;
+    transition: all 1.7s;
+}
+.bg6{
+    width: 100%;
+    height: 392px;
+    position: absolute;
+    left: 0%;
+    background: url(img/bg23.png) 50% 0 no-repeat;
+    bottom: 110px;
+    transition: all 1.7s;
+}
+
+
+/*第三屏*/
+.section3{
+	background:url(img/section3.jpg);
+	background-size: 100%;
+}
+.bg7{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 892px;
+    height: 472px;
+    margin-left: -396px;
+    margin-bottom: 80px;
+    background-image: url(img/bg31.png);
+    transition: all 1s;
+}
+.bg8{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 892px;
+    height: 472px;
+    margin-left: -396px;
+    background: url(img/bg32.png) 470px bottom no-repeat;
+    transition: all 1s;
+}
+.bg9{
+	position: absolute;
+    left: 44%;
+    bottom: 0;
+    width: 441px;
+    height: 380px;
+    background: url(img/bg33.png) 0 0 no-repeat;
+    transition: all 1s;
+}
+/*文字*/
+.section3 strong{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    z-index: 10;
+    width: 512px;
+    height: 45px;
+    margin-left: -256px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #748A9E;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    transition: all 1s
+}
+.section3 h3{
+    position: absolute;
+    color: #F1E872;
+    left: 48%;
+    top: 19%;
+    z-index: 10;
+    height: 45px;
+    margin-left: -256px;
+    margin-top: 60px;
+    transform: scale(0.5, 0.5);
+    transition: all 1s;
+    font-size: 51px;
+    font-weight: 100
+}
+.p3{
+	color: #FFF1B6;
+    position: absolute;
+    width: 430px;
+    left: 50%;
+    top: 15%;
+    margin-top: 250px;
+    margin-left: -27%;
+    font-size: 16px;
+    color: #FFFDE1;
+    /* opacity: 0; */
+    transition: all 1s;
+}
+
+/*<!-- 第4屏 -->*/
+.section4{
+	background:url(img/section7.jpg);
+	background-size: 100%;
+}
+.bg10{
+    position: absolute;
+    left: 50%;
+    bottom: 27%;
+    width: 699px;
+    height: 201px;
+    margin-left: -630px;
+    background: url(img/bg71.png) 50% 0 no-repeat;
+    transition: all 1s;
+}
+.bg11{
+    position: absolute;
+    left: 50%;
+    bottom: 37%;
+    width: 182px;
+    height: 206px;
+    margin-left: -170px;
+    background: url(img/bg72.png) 50% 0 no-repeat;
+    transition: all 1s;
+}
+.bg12{
+    position: absolute;
+    left: 50%;
+    bottom:148px;;
+    width: 651px;
+    height: 231px;
+    margin-left: -530px;
+    background: url(img/bg73.png) 50% 0 no-repeat;
+}
+/*文字*/
+.section4 strong{
+    width: 561px;
+    margin-left:-26%;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    z-index: 10;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #748A9E;
+    transition: all 1s;
+}
+.section4 h3{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    z-index: 10;
+    height: 45px;
+    margin-top: 60px;
+    transition: all 1s;
+     font-size: 51px;
+    font-weight: 100;
+    color: #F1E872;
+}
+.txt7{
+    position: absolute;
+    left: 50%;
+    width: 420px;
+    margin-left: 100px;
+    transition: all 1s;
+    color: #FFF1B6;
+    font-size: 16px;
+    top: 38%;
+}
+.bg13{
+    background: url(img/bg74.png) 50% 0 no-repeat;
+    background-size: 100%;
+    position: absolute;
+    /* left: 0; */
+    bottom: -72%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*第五屏*/
+.section5{
+	background:url(img/section10.jpg);
+	background-size: 100%;
+}
+.bg14{
+	position: absolute;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/bg101.png) 50% 20% no-repeat
+}
+.bg15{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    height: 79px;
+    background: url(img/bg102.png) 50% 0 no-repeat;
+    transition: all 1s;
+}
+.bg16{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    height: 37px;
+    margin-top: 110px;
+    background: url(img/bg103.png) 50% 0 no-repeat;
+    transition: all 1s;
+}
+/*按钮*/
+.go{
+    position: absolute;
+    left: 50%;
+     top: 30%; 
+    width: 254px;
+    height: 70px;
+    margin-top: 220px;
+    margin-left: -127px;
+    background-image: url(img/btn.png);
+    /* opacity: 0; */
+    transition: all 1s;
+}
+/*底部*/
+.copyright {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.copyright a{
+	color: #A0A0A0;
+	text-decoration: none;
+}
+.copyright span{
+	color: #A0A0A0;
+}

@@ -1,0 +1,214 @@
+.section h1{
+		text-align: center;
+	}
+	.section1{
+		background: url(../images/bg1-s.jpg) no-repeat center;
+	}
+	.text1{
+	    width: 574px;
+	    margin: 0 auto;
+	    padding-top: 126px;
+	    text-align: center;
+	    position: relative;
+	    bottom: -100px;
+    	z-index: 10;
+    	text-align: center;
+	}
+	.section h1 {
+	    margin-bottom: 20px;
+	    line-height: 1.4;
+	    font-size: 40px;
+	    font-weight: 400;
+	}
+	.text2{
+	    width: 574px;
+	    margin: 0 auto;
+	    padding-top: 126px;
+	    text-align: center;
+	    position: relative;
+	    top: -370px;
+    	z-index: 10;
+    	text-align: center;
+	}
+	.section2 .s2img{
+		position: absolute;
+		top: 168px;
+		left: 15%;
+		margin: auto;
+	}
+	.section2 .s2img .img1{
+		position: absolute;
+		left: 0;
+    	width: auto; 
+	}
+	.section2 .s2img .img2{
+		position: absolute;
+		left: 480px;
+    	width: auto;
+	}
+	
+
+	.section3{
+		background:url(../images/bg3-s.jpg) no-repeat center;
+	}
+	.text3{
+		width: 574px;
+	    margin: 0 auto;
+	    padding-top: 126px;
+	    text-align: center;
+	    position: absolute;
+	    bottom: 100px;
+	    left: 100px;
+    	z-index: 10;
+    	text-align: center;
+	}
+	.section4{
+		background:url(../images/screen.png) no-repeat right;
+	}
+	.text4{
+		width: 574px;
+	    margin: 0 auto;
+	    padding-top: 126px;
+	    text-align: center;
+	    position: relative;
+       	top: -200px;
+    	left: -504px;
+    	z-index: 10;
+    	text-align: center;
+	}
+	.section5{
+		background:url(../images/1.jpg) 50%;
+	}
+	.section6{
+		background:url(../images/2.jpg) 50%;
+	}
+	/*菜单的样式*/
+	#menu { 
+		margin: 0; 
+		padding: 0; 
+		position: fixed; 
+		left: 10px; 
+		top: 50%; 
+		margin-top: -147px;
+		list-style-type: none; 
+		z-index: 70;
+	}
+	#menu li { 
+		/*float: left; */
+		margin:  10px 10px 0 0; 
+		font-size: 14px;
+	}
+	#menu a { 
+		/*float: left; */
+		display: block;
+		padding: 10px 20px; 
+		background-color: #fff; 
+		color: #333; 
+		text-decoration: none;
+	}
+	#menu .active a { 
+		color: #fff; 
+		background-color: #333;
+	}
+	/*右侧导航圆点的样式*/
+	/*第一个li*/
+	#fp-nav ul li:first-child{
+		display: none;
+	}
+	#fp-nav ul li a span,
+	.fp-slidesNav ul li a span{
+		left: 5px;
+		width: 2px;
+		height: 2px;
+		background-color: rgba(0,0,0,1);
+		transition: all 0.5s;
+	}
+	#fp-nav ul li:hover a span{
+		left: 3px;
+		width: 6px;
+		height: 6px;
+	}
+	#fp-nav ul li a.active span,
+	.fp-slidesNav ul li a.active span{
+		left: 2px;
+		width: 8px;
+		height: 8px;
+		background-color: rgba(0,0,0,1);
+	}
+	/*魅族顶部导航样式*/
+	.topnav{
+		height: 80px!important;
+		line-height: 80px;
+	}
+	/*是插件自动生成的div*/
+	.topnav .fp-tableCell{
+		height: 80px!important;
+	}
+	.topnav .logo{
+		vertical-align: middle;
+	}
+	.topnav .contianer{
+		margin: auto;
+		width: 1020px;
+		/*background-color: pink;*/
+	}
+	.topnav ul{
+		float: right;
+		margin: 0;
+		padding: 0;
+	}
+	.topnav ul li{
+		list-style-type: none;
+		float: left;
+	}
+	.topnav ul li a{
+		color: #000;
+		text-decoration: none;
+	}
+	.topnav ul li a:hover{
+		color: #00a7eb;
+	}
+	.topnav ul.link li{
+		margin: 0 20px;
+	}
+	.section1 .fixnav{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		background-color: rgba(255,255,255,0.85);
+	}
+	.section1 .fixnav .container{
+		margin: auto;
+		width: 1020px;
+	}
+	.section1 .fixnav .container .logo{
+		vertical-align: middle;
+	}
+	.section1 .fixnav .container ul{
+		margin: 0;
+		padding: 0;
+		float: right;
+	}
+	.section1 .fixnav .container ul li{
+		list-style-type: none;
+		float: left;
+		margin: 0 20px;
+	}
+	.section1 .fixnav .container ul li.buy a{
+		padding: 5px;
+		background-color: #00a7eb;
+		color: #fff;
+	}
+	.section1 .fixnav .container ul li.buy a:hover{
+		color: #fff;
+	}
+	.section1 .fixnav .container ul li a{
+		color: #000;
+		text-decoration: none;
+	}
+	.section1 .fixnav .container ul li a:hover{
+		color: #00a7eb;
+	}
